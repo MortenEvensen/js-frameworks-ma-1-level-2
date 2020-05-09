@@ -1,4 +1,4 @@
-A simple slideshow for displaying images. 
+<h1>A simple slideshow for displaying images. </h1>
 
 Follow these 5 steps: 
 
@@ -12,7 +12,7 @@ Follow these 5 steps:
 
 3) For each image, change the "image1"-class to the next increasing number (image2, image3) and so on. It should look like this:
 
-
+<!--
     <div class="image-wrap">
         <img class="image image1" src="images/image1.jpg">
     </div>
@@ -22,7 +22,7 @@ Follow these 5 steps:
     <div class="image-wrap">
         <img class="image image3" src="images/image3.jpg">
     </div>
-
+-->
 
 4) Add this block of code to the javascript document for each image: 
 
