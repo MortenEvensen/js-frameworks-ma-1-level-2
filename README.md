@@ -57,9 +57,9 @@
 
 Thats it! You now have a fully working simple slideshow for you images!
 
-## ps
+## PS
 The css accepts 10 images, if you have more images then that, just add ".image11", ".image12" etc to the css. It should look like this: 
 
- .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, *add new classes if needed here* {
-    display: none;
-}
+       .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, -add new classes if needed here- {
+       display: none;
+    }
