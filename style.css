@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 0;
+    text-align: center;
+}
+
+.image-wrap {
+    text-align: center;
+}
+
+.image {
+    max-width: 90vw;
+    max-height: 90vh;
+    
+}
+
+
+/* Leave the first image as inline-block
+-----------------------------------------*/
+.image1 {
+    display: inline-block;
+}
+
+
+/* Add new classes if you have more than 10 images (.image11, .image12 etc)
+---------------------------------------------------*/
+.image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10 {
+    display: none;
+}
