@@ -36,21 +36,18 @@
 
 5) Increase the numbers for each image. The last image in the slideshow must return to the first image. It should look like this:
 ##
-
 $(".image1").click(function() {
     $(".image1").css({
         display: "none"
     })
     $(".image2").fadeToggle(700);
 });
-
 $(".image2").click(function() {
     $(".image2").css({
         display: "none"
     })
     $(".image3").fadeToggle(700);
 });
-
 $(".image3").click(function() {
     $(".image3").css({
         display: "none"
