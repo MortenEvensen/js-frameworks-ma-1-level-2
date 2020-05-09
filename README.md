@@ -38,28 +38,26 @@
     $(".image1").click(function() {
         $(".image1").css({
            display: "none"
-    })
+    });
     $(".image2").fadeToggle(700);
-});
-
+    });
     $(".image2").click(function() {
         $(".image2").css({
             display: "none"
-    })
+    });
     $(".image3").fadeToggle(700);
-});
-
+    });
     $(".image3").click(function() {
         $(".image3").css({
             display: "none"
-    })
+    });
     $(".image1").fadeToggle(700);
-});
+    });
 
 
 Thats it! You now have a fully working simple slideshow for you images!
 
-##ps
+## ps
 The css accepts 10 images, if you have more images then that, just add ".image11", ".image12" etc to the css. It should look like this: 
 
  .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, *add new classes if needed here* {
