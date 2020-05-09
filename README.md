@@ -5,11 +5,11 @@ Follow these 5 steps:
 1) Add you images to the images folder.
 
 2) Insert this block of code to your html document for each image:
-
+<!--
     <div class="image-wrap">
         <img class="image image1" src="images/image1.jpg">
     </div>
-
+-->
 3) For each image, change the "image1"-class to the next increasing number (image2, image3) and so on. It should look like this:
 
 <!--
