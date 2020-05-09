@@ -36,7 +36,6 @@
 
 5) Increase the numbers for each image. The last image in the slideshow must return to the first image. It should look like this:
 ##
-//First image
 
 $(".image1").click(function() {
     $(".image1").css({
@@ -45,16 +44,12 @@ $(".image1").click(function() {
     $(".image2").fadeToggle(700);
 });
 
-//Second image
-
 $(".image2").click(function() {
     $(".image2").css({
         display: "none"
     })
     $(".image3").fadeToggle(700);
 });
-
-//Last image image
 
 $(".image3").click(function() {
     $(".image3").css({
@@ -69,7 +64,7 @@ Thats it! You now have a fully working simple slideshow for you images!
 
 The css accepts 10 images, if you have more images then that, just add ".image11", ".image12" etc to the css. It should look like this: 
 
-
+##
 .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, *add new classes if needed here* {
     display: none;
 }
