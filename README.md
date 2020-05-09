@@ -12,7 +12,7 @@
 
 3) For each image, change the "image1"-class to the next increasing number (image2, image3) and so on. It should look like this:
 
-<!--
+##
     <div class="image-wrap">
         <img class="image image1" src="images/image1.jpg">
     </div>
@@ -22,10 +22,10 @@
     <div class="image-wrap">
         <img class="image image3" src="images/image3.jpg">
     </div>
--->
+
 
 4) Add this block of code to the javascript document for each image: 
-
+##
     $(".image1").click(function() {
     	$(".image1").css({
        	    display: "none"
@@ -35,7 +35,7 @@
 
 
 5) Increase the numbers for each image. The last image in the slideshow must return to the first image. It should look like this:
-
+##
 //First image
 
 $(".image1").click(function() {
